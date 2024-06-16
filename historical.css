@@ -1,0 +1,128 @@
+
+header{
+    height: 30px;
+    
+}
+#h1{
+    text-align: center;
+    font-size:30px;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+    animation: anim 5s 1; 
+}
+@keyframes anim{
+    from{transform: scale(0.5);}
+    to{transform: scale(1);}
+    
+}
+
+
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 6px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+
+}
+a:hover{
+border: 1.5px solid grey ;
+    border-radius: 13px;
+    padding: 5px;
+}
+#box{
+    background-color:rgb(42, 41, 41);
+    border-radius: 20px;
+
+    width: 98%;
+    height:fit-content;
+    border:1px solid grey;
+
+}
+#box1{
+    background-color:rgb(42, 41, 41);
+    border-radius: 20px;
+    margin-left: 50px;
+    width:90%;
+    height: fit-content;
+    border: 1px solid grey;}
+
+   
+
+p{
+
+    margin-left: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-spacing: 5px;
+    color: aliceblue;
+    font-size: 18px;
+}
+
+body{ background-color:black;
+background-image: url('https://media.easemytrip.com/media/Blog/India/637842463798773839/637842463798773839cFO7pn.jpg');
+background-size:cover;}
+
+
+#a{grid-area: a1;}
+#b{grid-area: b1;}
+#c{grid-area: c1;}
+#d{grid-area: d1;}
+#e{grid-area: e1;}
+#f{grid-area: f1;}
+#g{grid-area: g1;}
+#h{grid-area: h1;}
+#i{grid-area: i1;}
+.city{
+    display:grid;
+    background-color: rgb(32, 31, 31);
+    grid-template-areas:'a1 b1 c1' 
+    'd1 e1 f1'
+    'g1 h1 i1';
+   
+    padding:10px;
+    
+    margin:20p;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(47, 50, 59);
+    margin-top: 20px;
+    color: white;font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+text-align: center;
+}
+    
+img{ border-radius: 20px;
+    height: 300px;
+}
+img:hover{
+    box-shadow: 5px 5px 5px rgb(71, 66, 66);
+    
+}
+#login{
+font-family: Arial, Helvetica, sans-serif;
+margin-left:750px;
+
+padding: 10px;
+    
+}
+.click{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    color:aliceblue;
+    font-size: 20px;
+}
+.info{
+    
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+    border: 1px solid grey;
+    height:150px;
+    border-radius: 10px;
+}
+.info:hover{
+    box-shadow: 2px 2px 2px grey;
+}
